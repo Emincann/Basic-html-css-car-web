@@ -1,0 +1,140 @@
+body {
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.main .navbar img {
+    padding-left: 80%;
+}
+
+.main .right {
+    padding-right: 15%;
+
+}
+
+.main .right a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+/* contanier2*/
+
+
+.container2 {
+    background-image: none;
+    display: flex;
+}
+
+.container2 .left {
+
+    width: 50%;
+    width: 100vh;
+    padding-top: 220px;
+    padding-left: 100px;
+
+}
+
+.container2 .left h1 {
+    border-bottom: 3px solid white;
+    width: 900px;
+    font-size: 100px;
+    color: white;
+    padding-top: 40px;
+}
+
+.container2 .left p {
+    color: white;
+    font-family: sans-serif;
+}
+
+.container2 .left button {
+    width: 140px;
+    height: 50px;
+    background-color: white;
+    border-radius: 35px;
+    border: 3px solid rgb(255, 34, 34);
+    transition: 2s;
+}
+
+.container2 .left button:hover {
+    background-color: aliceblue;
+    width: 180px;
+    height: 70px;
+}
+
+/* Right*/
+.container2 .right {
+    padding-left: 50px;
+    padding-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.container2 .right img {
+    width: 220px;
+    height: 250px;
+    border: 3px solid red;
+    border-radius: 10px;
+
+}
+
+.container2 .right .resim {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover; 
+    border-radius: 8px;
+    transition: 0.5s;
+    
+}
+
+.container2 .right .resim .yazı{
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    padding: 8px;
+    top: 10%;
+    left: 5%;
+    color: white;
+    font-size: 12px;
+    background-image: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);;
+}
+
+.container2 .right .resim  button{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 80px;
+    height: 50px;
+    border: 3px solid red;
+    border-radius: 20px;
+    
+}
+.container2 .right .resim:hover{
+    display: inline-block;
+    
+    transform: scale(1.2);
+}
